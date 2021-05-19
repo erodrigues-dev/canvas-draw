@@ -1,0 +1,39 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #333;
+  overflow: hidden;
+  user-select: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+
+button {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  width: calc(100vw - 32px);
+  height: 60px;
+  border: 0;
+  outline: 0;
+  background: #7159c1;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  transition: filter 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+h1 {
+  top: 0;
+  color: #fff;
+  margin: 0;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 16px;
+}
